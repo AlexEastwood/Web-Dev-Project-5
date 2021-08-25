@@ -341,4 +341,81 @@ template {
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+main {
+  height: 100%;
+  width: 60%;
+}
+
+.searchbar {
+  height: 200px;
+  width: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-rows: repeat(auto-fill, 200px);
+  height: 100%;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: blue;
+}
+
+.grid-item-1 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/01.jpg");
+}
+
+.grid-item-2 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/02.jpg");
+}
+
+.grid-item-3 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/03.jpg");
+}
+
+.grid-item-4 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/04.jpg");
+}
+
+.grid-item-5 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/05.jpg");
+}
+
+.grid-item-6 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/06.jpg");
+}
+
+.grid-item-7 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/07.jpg");
+}
+
+.grid-item-8 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/08.jpg");
+}
+
+.grid-item-9 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/09.jpg");
+}
+
+.grid-item-10 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/10.jpg");
+}
+
+.grid-item-11 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/11.jpg");
+}
+
+.grid-item-12 {
+  background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/12.jpg");
+}
+
 /*# sourceMappingURL=main.css.map */
