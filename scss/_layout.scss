@@ -37,15 +37,3 @@ input {
     height: 100%;
     grid-gap: 20px;
 }
-
-@for $i from 1 through 12 {
-    @if ($i < 10) {
-        .grid-item-#{$i} {
-            background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/0#{$i}.jpg");
-        }
-    } @else {
-        .grid-item-#{$i} {
-            background-image: url("../photo_gallery_v5/photo_gallery_v5/photos/thumbnails/#{$i}.jpg");
-        }
-    }
-}
