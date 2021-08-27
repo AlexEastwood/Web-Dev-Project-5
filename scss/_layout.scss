@@ -21,13 +21,14 @@ input {
 }
 
 .searchbar {
+    padding-left: 10px;
     margin: 50px auto 25px auto;
-    height: 50px;
-    width: 400px;
+    height: 100px;
+    width: 60%;
     border: 2px lightgray solid;
     border-radius: 10px;
 }
-.grid {
+.gallery {
     width: 100%;
     display: grid;
     justify-content: center;
