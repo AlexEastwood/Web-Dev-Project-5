@@ -23,10 +23,11 @@ input {
 .searchbar {
     padding-left: 10px;
     margin: 50px auto 25px auto;
-    height: 100px;
+    height: 50px;
     width: 60%;
     border: 2px lightgray solid;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 .gallery {
     width: 100%;

@@ -38,4 +38,5 @@ for (i=1; i <= 12; i++) {
 window.addEventListener('load', function() {
     baguetteBox.run('.gallery');
   });
+
 const search = new Filter('search', 'data-caption');
